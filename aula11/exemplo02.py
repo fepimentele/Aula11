@@ -11,7 +11,7 @@ print('\nMenor Preço:')
 print(df_dados['preco'].min())
 
 print('\nMédia dos Preço:')
-print(round(df_dados['preco'].mean(),2))
+print(round(df_dados['preco'].mean(),2)) # round(x,2)
 
 print('\nTotal dos Preço:')
 print(df_dados['preco'].sum())
